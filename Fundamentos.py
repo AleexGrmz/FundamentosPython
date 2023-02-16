@@ -90,3 +90,36 @@ print (t)
 print (t[1])
 print ("t[0:2]", t[0:2]) 
 
+nuevoTema("SETS")
+x = {50, 40, 30, 20, 10, 10}
+print ("Conjunto x: ", x, type(x))
+
+nuevoTema("DICCIONARIO")
+d = {1: "Valor1", "Valor2" :2j }
+print (d, type(d))
+print ("d:[valor2]:", d["Valor2"])
+
+nuevoTema("CADENAS")
+cadena1 = "cadena con comillas dobles"
+cadena2 = 'cadena con comillas simples'
+cadenaMultilinea = ''' Esta cadena es de varias
+lineas,  tabulares    y   saltos'''
+
+print (cadena1, type(cadena1))
+print (cadena2, type(cadena2))
+print (cadenaMultilinea, type(cadenaMultilinea))
+print ("Segmentacion de cadena")
+print (cadena1[5:11]) 
+print (cadena1[:5])
+print (cadena1[7:])
+print (cadena1[-8:-1])
+print (cadena1[0:18:1])
+print (cadena1[0:18:2])
+print (cadena1[0:18:3])
+
+cadena1 = "Hello"
+cadena4 =  (cadena1 + " ") * 5
+print (cadena4)
+cadena5 = cadena4.upper()
+print (cadena5)
+
